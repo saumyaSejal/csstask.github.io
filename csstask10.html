@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+  <head>
+    <title>task 1</title>
+  </head>
+  
+  <style>
+    body{
+        background-color: rgb(198, 244, 83);
+        color:purple;
+    }
+    ul{
+    
+      display:block;
+      margin:36px 0px ;
+      padding:12px;
+      border:0px;
+      /* float:left;  */
+      
+    }
+    
+    .el{
+      width:104px;
+      height:24px;
+     /* padding:8px auto; */
+     margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
+      background-color: white;
+      text-align:centre;
+    
+       /* position:absolute;
+      display:block;  */
+
+    }
+    li{
+        margin:4px auto;
+        text-align: center;
+        /* padding-bottom: 4px; */
+    }
+
+    .tab{
+        display:inline-block;
+        width:4px;
+        height:36px;
+        background-color: black;
+    }
+    
+
+    #links{
+  /* opacity:0%; */
+  position:absolute;
+ 
+}
+
+#links:active{
+color: purple; 
+}
+
+.el:hover{
+  height:40px;
+  width:48px;
+}
+
+#text{
+  text-align:centre;
+  padding-left:200px;
+  padding-top:40px;
+  display:block;
+   
+  
+  
+  
+}
+
+hr {
+    color:purple;
+}
+.blocks{
+  display:inline;
+}
+
+    
+    
+    
+  </style>
+
+  <body>
+    <div class="blocks" id="links">
+         <ul type=none>
+      <li><div class="el" id="one"><span><a href="#">Home page</a></span></div></li>
+      <li><div class="el" id="two"><a href="">Musings</a></div></li>
+      <li><div class="el" id="three"><a href="">My town</a></div></li>
+      <li><div class="el" id="four"><a href="">Links</a></div></li>
+    </ul>
+      
+    </div>
+    
+    <div class="blocks" id="text">
+      <h3>My first styled page</h3>
+      <p>Welcome to my styled page ! </p>
+      
+      <p>It lacks images , but atleast it has style.And it has links , even if they dont go anywhere...</p>
+      <p>There should be more here , but I dont know what yet</p>
+      <hr noshade="true">
+      <p><i>Made 5 April 2004</i><br>by <em>myself</em></p>
+    </div>
+  
+  </body>
+</html>

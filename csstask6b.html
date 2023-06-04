@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title>task 1</title>
+  </head>
+  
+  <style>
+    ul{
+    
+      display:block;
+      margin:36px 0px ;
+      padding:0px;
+      border:0px;
+      /* float:left;  */
+      
+    }
+    
+    .el{
+      width:40px;
+      height:36px;
+      border-radius:8px;
+      margin:8px 0;
+       /* position:absolute;
+      display:block;  */
+    }
+    
+    #one{
+      background:green;
+    }
+    
+    
+    #two{
+      background:blue;
+    }
+    
+    #three{
+      background:red;
+    }
+    
+    #four{
+      background:black;
+    }
+
+    #links{
+  opacity:0%;
+  position:absolute;
+}
+
+#links:hover{
+  opacity:100%;
+}
+
+.el:hover{
+  height:40px;
+  width:48px;
+}
+
+#text{
+  text-align:centre;
+  padding-left:120px;
+  display:block
+   
+  
+  
+  
+}
+
+.blocks{
+  display:inline;
+}
+
+    
+    
+    
+  </style>
+
+  <body>
+    <div class="blocks" id="links">
+         <ul type=none>
+      <li><div class="el" id="one"></div></li>
+      <li><div class="el" id="two"></div></li>
+      <li><div class="el" id="three"></div></li>
+      <li><div class="el" id="four"></div></li>
+    </ul>
+      
+    </div>
+    
+    <div class="blocks" id="text">
+      <h3>Hoverable side nav bar</h3>
+      <p>Hover over the buttons in the left sidenavigation to open them </p>
+    </div>
+  
+  </body>
+</html>
